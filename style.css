@@ -1,0 +1,261 @@
+/* Reset Default */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* MY CODE */
+
+/* MAIN PAGE STYLING */
+* {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 1000px) {
+  header .header-index {
+    margin: 31px 0;
+    text-align: left;
+    line-height: 30px;
+    float: left;
+  }
+}
+
+body {
+  background-color: #f3f3f3;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  border-bottom: solid #111;
+}
+
+footer {
+  width: 100%;
+  height: 40px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 30px;
+  font-weight: 600;
+  color: #111;
+  display: block;
+  margin: 10px 0;
+  text-align: center;
+  padding: 25px 20px 20px 20px;
+}
+
+header .header-index {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 30px;
+  font-weight: 600;
+  color: #111;
+  display: block;
+  margin: 10px 0;
+  text-align: left;
+  padding: 25px 0px 0px 20px;
+}
+
+header nav ul {
+  margin: 25px 0px 0px 20px;
+  float: left;
+}
+
+header nav ul li {
+  display: inline-block;
+  float: left;
+  list-style: none;
+  padding: 0 16px;
+}
+
+header nav ul li a {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  color: #111;
+  line-height: 60px;
+}
+
+main section h1 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: right;
+  color: #fff;
+  padding: 600px 20px;
+}
+
+.welcome-index {
+  width: 100%;
+  height: calc(100vh + 500px);
+  background-image: url('/Users/danielberlin/Documents/Personal/img/SeattleHiking.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-bottom: solid #111;
+}
+
+.github {
+  position: relative;
+  bottom: 7px;
+  right: 7px;
+}
+
+/*.dropbtn {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  color: #111;
+  line-height: 60px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 130px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  display: block;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  font-weight: 0;
+  text-align: left;
+  padding-left: 8px;
+  color: #111;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}*/
+
+/* ABOUT PAGE STYLING */
+.me1999 {
+  margin: 31px 0;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 30px;
+  text-align: left;
+}
+
+.me2013 {
+  margin: 31px 0;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 30px;
+  text-align: left;
+}
+
+.me2017 {
+  margin: 31px 0;
+  text-align: left;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 30px;
+}
+
+.about-main {
+  margin: 0px 5px 5px 5px;
+  text-align: left;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 15px;
+  font-weight: lighter;
+  font-style: normal;
+  line-height: 2;
+}
