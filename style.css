@@ -230,24 +230,24 @@ main section h1 {
 
 /* ABOUT PAGE STYLING */
 .me1999 {
-  margin: 31px 0;
   font-family: 'Roboto Mono', monospace;
   font-size: 30px;
   text-align: left;
+  text-decoration: underline;
 }
 
 .me2013 {
-  margin: 31px 0;
   font-family: 'Roboto Mono', monospace;
   font-size: 30px;
   text-align: left;
+  text-decoration: underline;
 }
 
 .me2017 {
-  margin: 31px 0;
-  text-align: left;
   font-family: 'Roboto Mono', monospace;
   font-size: 30px;
+  text-align: left;
+  text-decoration: underline;
 }
 
 .about-main {
