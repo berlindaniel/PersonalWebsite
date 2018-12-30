@@ -37,12 +37,26 @@ header {
 
 header .header-index {
   font-family: 'Roboto Mono', monospace;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 600;
   color: #111;
   display: block;
   text-align: left;
-  margin: 5px;
+	padding: 2px;
+	border-top: 2px solid darkblue;
+	border-bottom: 2px solid darkblue;
+	border-left: 2px solid darkblue;
+	border-right: 2px solid darkblue;
+  margin: 2.5px;
+}
+
+header .header-index:hover {
+	font-size: 38px;
+	margin: 1px;
+	border-top: 4px solid darkblue;
+	border-bottom: 4px solid darkblue;
+	border-left: 4px solid darkblue;
+	border-right: 4px solid darkblue;
 }
 
 header nav ul {
@@ -62,6 +76,10 @@ header nav ul li a {
   font-family: 'Roboto Mono', monospace;
   font-size: 20px;
   color: #111;
+}
+
+header nav ul li a:hover {
+	text-decoration: underline darkblue;
 }
 
 body {
