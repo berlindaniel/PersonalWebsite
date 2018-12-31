@@ -79,6 +79,8 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
+	font-size: 22px;
+	font-weight: bold;
 	text-decoration: underline darkblue;
 }
 
