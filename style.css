@@ -264,15 +264,15 @@ footer {
   position: relative;
   height: 40px;
   margin-top: 100px;
+	text-align: center;
 }
 
 .footerList {
 	list-style: none;
 	display: inline-block;
-	float: left;
 	text-align: center;
 	padding: 0 25px;
 	font-family: 'Roboto Mono', monospace;
-	font-size: 14px;
+	font-size: 17px;
 	color: #111;
 }
