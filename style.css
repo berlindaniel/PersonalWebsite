@@ -12,15 +12,6 @@ html {
   text-decoration: none;
 }
 
-/* @media only screen and (min-width: 1000px) {
-  header .header-index {
-    margin: 30px 0;
-    text-align: left;
-    line-height: 30px;
-    float: left;
-  }
-} */
-
 header {
   width: 100%;
   height: 40px;
@@ -40,26 +31,17 @@ header .header-index {
   font-size: 35px;
   font-weight: 600;
   color: #111;
-	margin: 30px 0;
   display: block;
   text-align: left;
 	float: left;
-	line-height: 30px;
+	line-height: 27px;
 	padding: 2px;
-	border-top: 2px solid darkblue;
-	border-bottom: 2px solid darkblue;
-	border-left: 2px solid darkblue;
-	border-right: 2px solid darkblue;
   margin: 2.5px;
+	transition: color 0.5s;
 }
 
 header .header-index:hover {
-	font-size: 38px;
-	margin: 1px;
-	border-top: 4px solid darkblue;
-	border-bottom: 4px solid darkblue;
-	border-left: 4px solid darkblue;
-	border-right: 4px solid darkblue;
+	color: lightgray;
 }
 
 header nav ul {
@@ -79,15 +61,16 @@ header nav ul li a {
   font-family: 'Roboto Mono', monospace;
   font-size: 20px;
   color: #111;
+	transition: color 0.5s;
 }
 
 header nav ul li a:hover {
-	font-size: 22px;
-	font-weight: bold;
-	text-decoration: underline darkblue;
+	color: lightgray;
 }
 
 body {
+	width: 100%;
+	height: 100%;
   margin: 0px;
   padding: 0px;
 }
@@ -120,11 +103,6 @@ body article iframe {
 	text-align: center;
 }
 
-footer {
-  width: 100%;
-  height: 100px;
-  text-align: center;
-}
 
 .intro {
   line-height: 2em;
@@ -160,11 +138,18 @@ footer {
 }
 
 .github {
-  position: relative;
-  bottom: 18px;
-  right: 7px;
+  width: 4%;
+	margin: -17px;
+	margin-left: 15px;
+	margin-right: 7px;
 }
 
+.instagram {
+	width: 3.25%;
+	margin: -10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
 /* ABOUT PAGE STYLING */
 
 /* NOTES PAGE STYLING */
@@ -219,4 +204,75 @@ footer {
 	border-radius: 3px;
 	background-color: rgba(220,220,220,1);
   box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+}
+
+.two {
+	background-color: slategrey;
+	height: 1000px;
+	font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+	text-align: center;
+}
+
+.two h1 {
+	padding-top: 30px;
+}
+
+.nutrition, .stocks, .ncaa {
+	object-fit: cover;
+  object-position: 100% 0 15px;
+  width: 400px;
+  height: 400px;
+}
+
+.overlay {
+	position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.ncaa:hover .overlay {
+	opacity: 1;
+}
+
+.two ul {
+	float: center;
+	display: inline-block;
+	list-style: none;
+
+}
+
+.two ul li {
+	display: inline-block;
+	margin: 40px;
+	margin-top: 20px;
+}
+
+footer {
+	clear: both;
+  position: relative;
+  height: 40px;
+  margin-top: 100px;
+}
+
+.footerList {
+	list-style: none;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	padding: 0 25px;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 14px;
+	color: #111;
 }
