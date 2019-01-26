@@ -8,6 +8,10 @@ html {
 	background-color: rgba(248,248,248,1);
 }
 
+html, header, body, footer {
+	max-width: 100%;
+}
+
 * {
   text-decoration: none;
 }
@@ -20,7 +24,7 @@ header {
   border-top: 5px solid darkblue;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   background-color: rgba(248, 248, 248, 1);
-	position: fixed; 
+	position: fixed;
   top: 0px;
   left: 0px;
   width: 100vw;
@@ -101,7 +105,6 @@ body article iframe {
 	margin: 0px auto;
 	text-align: center;
 }
-
 
 .intro {
   line-height: 2em;
@@ -190,6 +193,54 @@ body article iframe {
   box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
 }
 
+.projects {
+	font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+	background-color: lightgray;
+}
+
+.projectInfo {
+	font-family: 'Roboto Mono', monospace;
+	color: #111;
+}
+
+.projectHeader {
+	padding-top: 20px;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bolder;
+	color: darkblue;
+}
+
+.projectInfo span h2 {
+	font-weight: lighter;
+	font-size: 25px;
+	vertical-align: middle;
+}
+
+.projectInfo span {
+	display: inline-block;
+}
+
+.projectInfo span .projectSpanOne {
+}
+
+.codeIcon {
+	width: 40px; height: auto; white-space: nowrap; padding-right: 20px;
+	vertical-align: bottom;
+}
+
+.projectInfo p {
+	display: block;
+	width: 70vw;
+	margin: 5.5px auto;
+	font-size: 18px;
+	line-height: 1.5em;
+	font-family: Helvetica, sans-serif;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
 .two {
 	position: relative;
 	display: block;
@@ -238,7 +289,15 @@ footer {
 	list-style: none;
 	display: inline-block;
 	text-align: center;
+	text-decoration: none;
 	padding: 0 25px;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 17px;
+	color: #111;
+}
+
+.contact {
+	text-decoration: none;
 	font-family: 'Roboto Mono', monospace;
 	font-size: 17px;
 	color: #111;
