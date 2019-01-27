@@ -118,7 +118,7 @@ body article iframe {
   float: left;
 }
 
-.welcome-text {
+.welcome-text, .bodyHeader {
   font-family: 'Roboto Mono', monospace;
   font-size: 30px;
   font-weight: bolder;
@@ -207,7 +207,7 @@ body article iframe {
 .projectHeader {
 	padding-top: 20px;
 	text-align: center;
-	font-size: 25px;
+	font-size: 30px;
 	font-weight: bolder;
 	color: darkblue;
 }
@@ -294,6 +294,14 @@ footer {
 	font-family: 'Roboto Mono', monospace;
 	font-size: 17px;
 	color: #111;
+}
+
+.footerList a {
+	transition: color 0.5s;
+}
+
+.footerList a:hover {
+	color: lightgray;
 }
 
 .contact {
