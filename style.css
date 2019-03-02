@@ -76,6 +76,8 @@ body {
 	width: 100%;
 	height: 100%;
 	position: relative;
+	margin: 0;
+	padding: 0;
 }
 
 body article {
@@ -85,6 +87,10 @@ body article {
 	font-size: 1.2em;
 	line-height: 1.5em;
 	font-family: Helvetica, sans-serif;
+}
+
+body article p {
+	padding-bottom: 10px;
 }
 
 body article code {
@@ -125,6 +131,10 @@ body article iframe {
   color: darkblue;
 }
 
+.bodyHeader {
+	padding-top: 30px;
+}
+
 .welcome-index {
   width: 100%;
   height: calc(100vh + 500px);
@@ -144,6 +154,7 @@ body article iframe {
 
 /* NOTES PAGE STYLING */
 .workList {
+	padding-top: 40px;
 	text-align: center;
 	list-style-type: none;
   overflow-y: auto;
@@ -197,6 +208,13 @@ body article iframe {
 	font-family: 'Roboto Mono', monospace;
   font-size: 20px;
 	background-color: lightgray;
+	height: 500px;
+}
+
+.skills {
+	font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+	height: 500px;
 }
 
 .projectInfo {
@@ -204,8 +222,8 @@ body article iframe {
 	color: #111;
 }
 
-.projectHeader {
-	padding-top: 20px;
+.projectHeader, .skillsHeader {
+	padding-top: 40px;
 	text-align: center;
 	font-size: 30px;
 	font-weight: bolder;
